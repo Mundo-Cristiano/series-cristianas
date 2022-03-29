@@ -94,20 +94,20 @@ ul {
 }
 
 .iconos {
-    width: 300px;
-    height: 168px;
+    width: 298px;
+    height: 164px;
 }
 
 @media (max-width: 768px) {
     .iconos {
-        width:200px;
-        height: 112px;
+        width:196px;
+        height: 108px;
     }
 }
 
 @media (min-width: 1024px) {
     .iconos {
-        width: 400px;
-        height: 224px;
+        width: 396px;
+        height: 220px;
     }
 }
