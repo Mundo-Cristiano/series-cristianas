@@ -8,6 +8,7 @@
     display: grid;
     gap: 1.5vw;
     grid-template-columns: repeat(auto-fill, minmax(38vw, 1fr));
+    grid-auto-rows: minmax(38vw, auto);
 }
 
 body {
@@ -36,6 +37,7 @@ body::before{
 
 .grid-items{
     width: 100%;
+    height: 100%;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -47,11 +49,30 @@ ul {
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-
 .iconos {
     border-radius: 1vw;
     width: 100%;
     height: 100%;
+}
+
+.contenedor-imagen-y-texto{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+ 
+
+.texto-central{
+    position: absolute;
+    width: 100%;
+    font-size: 2.3vw;
+    padding: 0.5vw;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
 }
 
 /*Orientacion Horizontal*/
@@ -61,11 +82,15 @@ ul {
     .grid-container {
         gap: 1vw;
         grid-template-columns: repeat(auto-fill, minmax(22vw, 1fr));
+        grid-auto-rows: minmax(22vw, auto);
     }
 
     ul {
         padding: 1.5vw;
         background-color: rgba(0, 0, 0, 0.2);
+    }
+    .texto-central {
+        font-size: 1.05vw;
     }
 }
 
@@ -78,6 +103,11 @@ ul {
     .grid-container {
         gap: 1vw;
         grid-template-columns: repeat(auto-fill, minmax(26vw, 1fr));
+        grid-auto-rows: minmax(26vw, auto);
+    }
+
+    .texto-central {
+        font-size: 1.5vw;
     }
 }
 
@@ -88,5 +118,6 @@ ul {
     .grid-container {
         gap: 1vw;
         grid-template-columns: repeat(auto-fill, minmax(19vw, 1fr));
+        grid-auto-rows: minmax(19vw, auto);
     }
 }
