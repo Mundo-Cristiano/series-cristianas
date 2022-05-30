@@ -65,8 +65,8 @@ ul {
     font-size: 2.3vw;
     padding: 0.5vw;
     color: rgb(255, 255, 255);
-    background-color: rgba(0, 0, 0, 0.8);
-    top: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 93%;
     left: 50%;
     transform: translate(-50%, -50%);
    
