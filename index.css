@@ -62,11 +62,12 @@ ul {
 .texto-central{
     position: absolute;
     width: 100%;
-    font-size: 4vw;
+    font-size: 3.1vw;
+    font-family: tahoma;
     padding: 3vw;
     color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0.9);
-    top: 50%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
    
