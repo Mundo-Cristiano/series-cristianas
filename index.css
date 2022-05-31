@@ -66,8 +66,8 @@ ul {
     font-family: tahoma;
     padding: 3vw;
     color: rgb(255, 255, 255);
-    background-color: rgba(0, 0, 0, 0.9);
-    top: 10%;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 7.8%;
     left: 50%;
     transform: translate(-50%, -50%);
    
