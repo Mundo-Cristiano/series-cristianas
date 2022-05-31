@@ -87,7 +87,8 @@ ul {
         background-color: rgba(0, 0, 0, 0.2);
     }
     .texto-central {
-        font-size: 1.05vw;
+        font-size: 1.2vw;
+        padding: 1.5vw;
     }
 }
 
