@@ -60,6 +60,7 @@ ul {
  
 
 .texto-central{
+    border-radius: 1vw 1vw 0 0;
     position: absolute;
     width: 100%;
     font-size: 3vw;
@@ -88,7 +89,7 @@ ul {
     }
     .texto-central {
         font-size: 1.2vw;
-        padding: 1.5vw;
+        padding: 1.6vw;
     }
 }
 
@@ -104,7 +105,8 @@ ul {
     }
 
     .texto-central {
-        font-size: 1.5vw;
+        font-size: 1.7vw;
+        padding: 2vw;
     }
 }
 
@@ -115,5 +117,10 @@ ul {
     .grid-container {
         gap: 1vw;
         grid-template-columns: repeat(auto-fill, minmax(19vw, 1fr));
+    }
+
+    .texto-central {
+        font-size: 1.4vw;
+        padding: 1.4vw;
     }
 }
