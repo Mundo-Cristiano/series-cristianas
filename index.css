@@ -60,18 +60,16 @@ ul {
  
 
 .texto-central{
-    border-radius: 1vw 1vw 0 0;
     position: absolute;
     width: 100%;
     font-size: 3vw;
     font-family: tahoma;
-    padding: 3.2vw;
+    padding: 0.5vw;
     color: rgb(255, 255, 255);
-    background-color: rgba(0, 0, 0, 0.9);
-    top: 7.6%;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 90%;
     left: 50%;
-    transform: translate(-50%, -50%);
-   
+    transform: translate(-50%, -50%);   
 }
 
 /*Orientacion Horizontal*/
@@ -88,8 +86,8 @@ ul {
         background-color: rgba(0, 0, 0, 0.2);
     }
     .texto-central {
-        font-size: 1.2vw;
-        padding: 1.6vw;
+        font-size: 1.5vw;
+        padding: 0.3vw;
     }
 }
 
@@ -106,7 +104,7 @@ ul {
 
     .texto-central {
         font-size: 1.7vw;
-        padding: 2vw;
+        padding: 0.3vw;
     }
 }
 
@@ -120,7 +118,7 @@ ul {
     }
 
     .texto-central {
-        font-size: 1.4vw;
-        padding: 1.4vw;
+        font-size: 1.5vw;
+        padding: 0.2vw;
     }
 }
